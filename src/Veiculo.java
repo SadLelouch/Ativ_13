@@ -4,14 +4,15 @@ public class Veiculo {
     protected String Ano;
 
     public void setModelo(String modelo){
-        this.Modelo = Modelo;
+        this.Modelo = modelo;
     }
     public void setCor(String cor) {
-        this.Cor = Cor;
+        this.Cor = cor;
     }
     public void setAno(String ano) {
         this.Ano = ano;
     }
+
     public String getModelo() {
 
         return Modelo;
